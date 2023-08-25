@@ -1,0 +1,45 @@
+I"�
+<p>Let’s open the Illustrator file linked below to practice creating a layout with an informal grid. Start with activating one of the following families on Adobe Fonts.</p>
+
+<ul class="hasBullets">
+	<li><a href="https://fonts.adobe.com/fonts/baskerville-urw" title="Baskerville" target="_blank">Baskerville URW</a></li>
+	<li><a href="https://fonts.adobe.com/fonts/kings-caslon" title="King's Caslon" target="_blank">King's Caslon</a></li>
+	<li><a href="https://fonts.adobe.com/fonts/garamond-premier" title="Adobe Garamond Premier" target="_blank">Adobe Garamond Premier</a></li>
+	<li><a href="https://fonts.adobe.com/fonts/itc-franklin-gothic" title="ITC Franklin Gothic" target="_blank">ITC Franklin Gothic</a></li>
+	<li><a href="https://fonts.adobe.com/fonts/acumin" title="Acumin" target="_blank">Adobe Acumin</a></li>
+	<li><a href="https://fonts.adobe.com/fonts/gill-sans-nova" title="Gill Sans Nova" target="_blank">Gill Sans Nova</a></li>
+	<li><a href="https://fonts.adobe.com/fonts/itc-avant-garde-gothic" title="ITC Avant Garde" target="_blank">ITC Avant Garde</a></li>
+	<li><a href="https://fonts.adobe.com/fonts/futura-pt" title="Futur" target="_blank">Futura PT</a></li>
+	<li><a href="https://fonts.adobe.com/fonts/rockwell" title="Rockwell">Rockwell Monotype</a></li>
+</ul>
+
+<p><a href="https://www.dropbox.com/s/j04m6g1o2b1azqz/appleseed-johnny-%23-informal-grids.ai.zip?dl=1" title="Download the text file for this practice assignment" target="_blank"><img src="http://localhost:4001/svg/button-download.svg" alt="Download" width="40%" /></a></p>
+
+<p>The whole idea of the informal grid is that we set one page element after another, starting with the most important. So let’s set the title.</p>
+
+<p>These are some variables you can work with:</p>
+
+<ul class="hasBullets columns3">
+	<li>size</li>
+	<li>weight</li>
+	<li>width</li>
+	<li>case</li>
+	<li>greys</li>
+	<li>strokes</li>
+	<li>columns</li>
+	<li>diagonal</li>
+	<li>italics</li>
+	<li>reversed</li>
+	<li>tracking</li>
+</ul>
+
+<p>Now we’ll set the sub-title. It needs to appear noticeably less important than the title. Alignment is important here. That’s the informal grid at work.</p>
+
+<p>The last item is the block of body copy. Make sure to set proper leading and reasonable hyphenation.</p>
+
+<p>Once you’re done, save your work, then save a copy of your file as a Print Ready PDF file.</p>
+
+<p><a href="https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=480488&amp;grpid=0&amp;isprv=0&amp;bp=0&amp;ou=503881" title="Submit a PDF" target="_blank"><img src="http://localhost:4001/svg/button-submit-brightspace.svg" alt="Submit on brightspace" width="50%" /></a></p>
+
+<p>We’ll do a quick critique of the result.</p>
+:ET

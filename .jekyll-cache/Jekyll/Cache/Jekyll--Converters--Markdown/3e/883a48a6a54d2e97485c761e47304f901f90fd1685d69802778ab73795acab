@@ -1,0 +1,93 @@
+I"o<p>Legibility is the focus when choosing a typeface for a long publication. We’ll choose an Old Style serif type family designed for such an application. There are times when you can use a sans-serif for a long document, but not in a fiction novel. Our choice needs to have a large compliment of OpenType features such as ligatures, small caps, old style numerals and alternate glyphs.</p>
+
+<p>We want to make sure the colour of the page is uniform. Type size, width and weight as well as leading has a large bearing on this.</p>
+
+<p>There’s on old adage by typesetters that says, <em>When in doubt, choose Caslon</em>. So let’s avoid Caslon (and Garamond) altogether. There are many great alternatives out there.</p>
+
+<p><a href="https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=480487&amp;grpid=0&amp;isprv=0&amp;bp=0&amp;ou=503881" title="Submit your type choice." target="_blank"><img src="http://localhost:4001/svg/button-submit-type-choice.svg" alt="button-submit-type-choice" width="50%" /></a></p>
+
+<h3 id="properties-to-seek-out">Properties to Seek Out</h3>
+
+<p>The features below are not all required, but they are good to have. It all depends on context.</p>
+
+<p><img src="http://localhost:4001/svg/grimms-pages-type-properties.svg" alt="Grimm's Pages Type Properties" width="90%" /></p>
+
+<p>We’ll need to do research to know which typefaces are suitable for a long fiction text, like Caslon, but not Caslon.</p>
+
+<h3 id="measuring-type">Measuring Type</h3>
+
+<p>Not all 36 point type measures 36 points!</p>
+
+<p><img src="http://localhost:4001/svg/type-measurement.svg" alt="Type Measurement" width="90%" /></p>
+
+<p>In this figure, we have two serif typefaces set at 36pts. Look at the huge difference in apparent size. The one on the left has a small x-height. It also has a very small body hight relative to the point size.</p>
+
+<h4 id="how-to-access-these-features">How to Access These Features</h4>
+
+<dl>
+  <dt>Ligatures</dt>
+  <dd>Ligatures should appear automatically in InDesign. If not, go to the paragraph style &gt; Basic Character Formats &gt; Ligatures.</dd>
+  <dt>Fractions</dt>
+  <dd>If you want 1/4 to look like ¼, go to the paragraph style’s OpenType features, then turn on Fractions.</dd>
+  <dt>Old Style Figures</dt>
+  <dd>If you want old style numbers, go to the paragraph style’s OpenType features, then choose Figure Style Tabular Oldstyle.</dd>
+  <dt>Ornaments</dt>
+  <dd>Put your cursor in a text frame. Go <span class="command">Type Menu &gt; Glyphs</span>. Double-click on the ornament you want.</dd>
+</dl>
+
+<h3 id="stick-with-old-style">Stick with Old Style</h3>
+
+<p>We’ll mostly keep to Old Style typefaces for book page design. Remember, Old Style serif typefaces have these characteristics.</p>
+
+<p><img src="http://localhost:4001/svg/kb/classification-old-style.svg" alt="Classification Old Style" width="80%" /></p>
+
+<p>The bar on the <span class="mono">e</span> is horizontal. Their serifs are bracketed. An inclined axis. If you want to choose something that’s not Old Style, please pass it by me. Some humanist serif typefaces may also be acceptable.</p>
+
+<h3 id="fine-serifs--noise">Fine Serifs &amp; Noise</h3>
+
+<p>Avoid typefaces that appear too noisy on the page. This is an example.</p>
+
+<p><img src="http://localhost:4001/svg/text-too-noisy.svg" alt="Text that's too noisy" width="60%" /></p>
+
+<p>See in the enlarged word how each glyph has very pronounced angles. This makes the text <em>noisy</em> at regular reading type size. This is definitely something to avoid for a long document like a fiction novel.</p>
+
+<p>Modern typefaces have very thin serifs. Also, the thick-thin contrast is too great.</p>
+
+<p><img src="http://localhost:4001/svg/text-skinny-serifs.svg" alt="Text with skinny serifs" width="60%" /></p>
+
+<p>See how the block of text looks like a spider walked all over our page with ink on its feet? That’s not a good look. Printing a long document such as a fiction novel is done with black ink only. When the serifs are so fine, they risk not being printed at all which is also frowned upon.</p>
+
+<h3 id="more-on-stylistic-elements">More on Stylistic Elements</h3>
+
+<h4 id="ornaments">Ornaments</h4>
+
+<p><img src="http://localhost:4001/svg/ornaments.svg" alt="Ornaments" width="60%" /></p>
+
+<p>Ornaments are actually glyphs that are part of a font. The simplest way to choose one is to select a font, then open the glyphs panel to get a list. A majority of fonts don’t have ornaments. They’re a lot of work for the typographer to design.</p>
+
+<p>Depending on the context, ornaments can create a visual break in reading and enhance the appearance of our pages.</p>
+
+<h4 id="alternates">Alternates</h4>
+
+<p><img src="http://localhost:4001/svg/alternates.svg" alt="Alternates" width="60%" /></p>
+
+<p>Stylistic alternates can add elegance or ease-of-reading to our text. Conversely, we need to careful that they’re not more of a distraction.</p>
+
+<h4 id="ligatures">Ligatures</h4>
+
+<p><img src="http://localhost:4001/svg/ligatures.svg" alt="Ligatures" width="60%" /></p>
+
+<p>Ligatures can ease flow when reading. As with alternates, they can be distracting.</p>
+
+<h4 id="old-style-figures">Old Style Figures</h4>
+
+<p><img src="http://localhost:4001/svg/kb/old-style-figures.svg" alt="Old Style Figures" width="50%" /></p>
+
+<p>Old style figures, also known as non-lining figures are shifted relative to the baseline. These figures add style and legibility to numbers. There’s more differentiation between digits.</p>
+
+<h4 id="by-the-way">By the way…</h4>
+
+<p>This is what I meant by distracting ligatures.</p>
+
+<p><img src="http://localhost:4001/svg/distractions.svg" alt="Distracting Text" width="60%" /></p>
+:ET

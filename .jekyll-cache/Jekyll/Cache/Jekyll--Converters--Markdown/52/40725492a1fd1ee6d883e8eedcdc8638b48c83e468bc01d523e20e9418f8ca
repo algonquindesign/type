@@ -1,0 +1,87 @@
+I"B<p>Create a letter-sized layout containing biographical information on your given typographer. It should contain <a href="your-task.html">these elements</a>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Last Name</th>
+      <th>First Name</th>
+      <th>Typographer</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ciper</td>
+      <td>Enissa</td>
+      <td>Licko, Zuzana</td>
+      <td>January 18, 2023</td>
+    </tr>
+    <tr>
+      <td>Gomond</td>
+      <td>Bryan</td>
+      <td>Benguiat, Ed</td>
+      <td>April 5, 2023</td>
+    </tr>
+    <tr>
+      <td>Goodick</td>
+      <td>Hannah</td>
+      <td>Spiekermann, Erik</td>
+      <td>April 5, 2023</td>
+    </tr>
+    <tr>
+      <td>Goudreau-Patterson</td>
+      <td>Chandler</td>
+      <td>Frutiger, Adrian</td>
+      <td>March 29, 2023</td>
+    </tr>
+    <tr>
+      <td>Jay</td>
+      <td>Angela</td>
+      <td>Slimbach, Robert</td>
+      <td>March 8, 2023</td>
+    </tr>
+    <tr>
+      <td>Lam</td>
+      <td>Stephanie</td>
+      <td>Brody, Neville</td>
+      <td>March 15, 2023</td>
+    </tr>
+    <tr>
+      <td>Mohdamed</td>
+      <td>Ibrahim</td>
+      <td>Twombly, Carol</td>
+      <td>March 22, 2023</td>
+    </tr>
+    <tr>
+      <td>Shaan</td>
+      <td>Shaan</td>
+      <td>Morison, Stanley</td>
+      <td>February 15, 2023</td>
+    </tr>
+    <tr>
+      <td>Smith</td>
+      <td>Brianna</td>
+      <td>Frere-Jones, Tobias</td>
+      <td>February 22, 2023</td>
+    </tr>
+    <tr>
+      <td>Stojanovic</td>
+      <td>Andrej</td>
+      <td>Porchez, Jean François</td>
+      <td>February 8, 2023</td>
+    </tr>
+    <tr>
+      <td>Valenzuela</td>
+      <td>Zara</td>
+      <td>Hische, Jessica</td>
+      <td>April 5, 2023</td>
+    </tr>
+    <tr>
+      <td>Zhang</td>
+      <td>Suzie</td>
+      <td>Stone, Sumner</td>
+      <td>January 25, 2023</td>
+    </tr>
+  </tbody>
+</table>
+:ET

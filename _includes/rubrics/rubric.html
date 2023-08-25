@@ -1,0 +1,10 @@
+<h2>
+	Rubric 
+</h2>
+<ul class="creteria">
+	{% for entry in site.data.assignments %}
+		{% for item in entry.criteria %}
+				<li class="criterium">{{ item.criterium }}</li>
+		{% endfor %}
+	{% endfor %} 
+</ul>

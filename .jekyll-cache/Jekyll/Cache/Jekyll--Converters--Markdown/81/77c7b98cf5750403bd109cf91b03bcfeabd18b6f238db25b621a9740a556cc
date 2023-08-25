@@ -1,0 +1,62 @@
+I"�<h2 id="the-process">The Process</h2>
+
+<h3 id="1-understand-why-the-client-needs-a-logo">1. <a name="understand-client">Understand why the client needs a logo</a></h3>
+
+<p class="left-margin">Understanding the reason for the new design can often give you an initial direction. It may tell you what the client <em>doesn’t</em> want. If they’re coming from a specific style, odds are you’re going to avoid that style in the new design.</p>
+
+<h3 id="2-find-inspiration-for-your-design">2. <a name="inspiration">Find inspiration for your design</a></h3>
+
+<p class="left-margin">Read the brief posted about your client. Research the concept behind the name of the company. Are there any images conjured by the meaning of the name? Note those. They can be a great starting point for your design.</p>
+
+<h3 id="3-check-out-the-competition">3. <a name="competition">Check out the competition</a></h3>
+
+<p class="left-margin">There are a few reasons to check out the competition. You can get an idea of the quality of their branding. Once we’re done, where are we going to be relative to them? We also want to avoid creating anything close to what’s already out there. This is an opportunity to differentiate your client from the pack.</p>
+
+<h3 id="4-choose-your-design-style">4. <a name="design-style">Choose your design style</a></h3>
+
+<p class="left-margin">There are established styles out there. There’s <a href="https://www.pinterest.ca/pin/127930445657359320/">vintage (sometimes hipster)</a>, <a href="https://www.pinterest.ca/search/pins/?q=gradient%20logo%20design">modern</a>, <a href="https://www.pinterest.ca/search/pins/?q=illustrated%20logo%20design">illustrated</a>, <a href="https://www.pinterest.ca/search/pins/?q=3D%20logo%20design">3D</a> and many more. Explore what’s out there, then carve your own path. Use the style that best suits your client and their goals.</p>
+
+<p class="left-margin">Beware of trends. By definition, they will pass. You don’t want your design to be dated in a couple of years.</p>
+
+<h3 id="5-sketching">5. <a name="sketching">Sketching</a></h3>
+
+<p class="left-margin">Take pencil to paper. Start with rough thumbnails to get ideas on the page. Make lots. Many will fail. Some will be the seed of an idea. <a href="https://www.pinterest.ca/pin/381187555970776414/" target="_blank">This is the type of thing</a> we’re looking for as sketches.</p>
+
+<blockquote>
+  <p>You should have many, many sketches to find 3 solid concepts.</p>
+</blockquote>
+
+<p class="left-margin">You have the choice of basing your design on existing type or drawing the whole wordmark. You can gain inspiration from existing type.</p>
+
+<p class="left-margin">Where to look for opportunities:</p>
+
+<dl class="left-margin">
+  <dt>Meanings behind the name</dt>
+  <dd>What is the meaning of the organization name? Why was it chosen? Is there a secondary meaning? Deep research is needed. Make a list of words that relate to those concepts. Even better, create a mind-map to flesh it out.</dd>
+</dl>
+
+<dl class="left-margin">
+  <dt>Imagery related company info</dt>
+  <dd>Read through the information that was given to you about the company. Are there visuals to be gleaned from there?</dd>
+  <dt>Shapes of letters</dt>
+  <dd>Now that you’ve done deep research, do the concepts you’ve found relate somehow to the shapes of the letters in their name? Do the shapes of the letters suggest opportunities to communicate that concept visually?</dd>
+</dl>
+
+<h3 id="7-choose-colour-carefully">7. <a name="choose-colour">Choose colour carefully</a></h3>
+
+<p class="left-margin">We want to keep colour in mind all along the design process. I usually present a logo concept without colour to start. It makes for fewer considerations, simplifying decision-making early-on.</p>
+
+<p class="left-margin">We want to consider printing processes, different screen types and general accessibility.</p>
+
+<p><img src="http://localhost:4001/svg/wordmark/wordmark-colours.svg" alt="Black swatch, grey swatches, colour swatches" width="80%" /></p>
+
+<p class="left-margin">First, our wordmark should work as well in black only as in grey or in full colour. The whole design process should be done in black, never forgetting that colour <em>will</em> be applied.</p>
+
+<p class="left-margin">We’re not going into colour theory here. Put everything you’ve learned into your colour choice. From a technical point of view, we want a first and a second colour (to avoid confusing things with the term <em>primary</em> and <em>secondary</em>). Our first colour should be darker than the second. To test, when you convert your chosen colours to greyscale, they should not have similar values.</p>
+
+<h3 id="8-complete-production-work">8. <a name="production-work">Complete production work</a></h3>
+
+<p class="left-margin">The goal here is to provide files which can be used on any platform or any printing process while maintaining the integrity of the design. <a href="technical-requirements.html">Read more…</a></p>
+
+<div class="text-right" style="margin-top: 3rem;">&#8613; <a href="#top">Top</a></div>
+:ET

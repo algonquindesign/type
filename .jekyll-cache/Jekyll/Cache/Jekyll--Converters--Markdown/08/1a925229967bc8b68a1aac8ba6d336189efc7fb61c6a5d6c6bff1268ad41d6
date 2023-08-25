@@ -1,0 +1,60 @@
+I"<p>I actually have a typographic ruler (or <em>gauge</em>) in my office. I tried to measure type printed on a page that I printed. I knew it was 12 points in InDesign, but it didn’t measure twelve points according to the ruler.</p>
+
+<p><img src="http://localhost:4001/svg/kb/measuring-type.svg" alt="Measuring type" width="90%" /></p>
+
+<p>As you see in the graphic above, there’s a measurement called <em>Point Size</em>. This measurement is the height of the container of all the glyphs in a type family at a specified size. This corresponds to the number in the <em>Size</em> menu in your design software. It is not the measurable height of the printed glyph on the page. Theoretically, this container <em>could</em> measure 72 points tall but contain a capital M that measures 8 points.</p>
+
+<p><img src="http://localhost:4001/svg/kb/measuring-type-difference.svg" alt="Measuring Type Difference" width="60%" /></p>
+
+<p>Here, you see that the upper case M set in Fira Sans at 72 points is much taller than the same glyph set in Mrs. Eaves at 72 points.</p>
+
+<p>So the answer to my is question is <em>No</em>. One cannot use a ruler to accurately measure type on a printed page in order to enter that number in their design software to reproduce that size type. The most valuable tool in visually measuring type is the experienced, trained eye.</p>
+
+<h4 id="points--picas">Points &amp; Picas</h4>
+
+<p>We use points and picas to measure type in print. There’s a long history about how these units of measure evolved. There are different sizes of points which have been created by prominent typographers in Europe. Suffice it to say, today, the point we use is unfortunately based on the American inch, which has <a href="https://en.wikipedia.org/wiki/Inch#History" target="_blank">no intrinsic significance</a>.</p>
+
+<p><img src="http://localhost:4001/svg/kb/points-picas-inches.svg" alt="Picas, Points &amp; Inches" width="90%" /></p>
+
+<h4 id="the-em">The Em</h4>
+
+<p>An Em is a relative measurement which is equal to the given point size of type. If you have a word set at 32 points, then 1 em is equal to 32 points. The goal is to have a relative sizing system rather than an absolute one.</p>
+
+<p><img src="http://localhost:4001/svg/kb/measuring-type-ems.svg" alt="Em Type system" width="60%" /></p>
+
+<p>Let’s say your basis size is 12 points. Your em size will be 12 points. With this, you can set up a type system by increasing by half with each step. You’re just adding 50% to each number.</p>
+
+<blockquote>
+  <p>If you’ve ever wondered how large to make your paragraph spacing or their first line indents, start with 1 Em and adjust if needed.</p>
+</blockquote>
+
+<p>One thousandths of Ems?! That’s what page layout software applications use to calculate such measurements such as kerning and tracking. This is useful, because the cumulative effects of tracking can be great. Each time you track in text, that tightening is applied to the space between each glyph. The overall effect needs to be set at a <em>micro</em> level.</p>
+
+<h4 id="white-space">White Space</h4>
+
+<p>When designing a typeface, typographers even need to decide the size of the spaces between things. This is generally termed <em>white space</em>. These are the units of measure.</p>
+
+<p><img src="http://localhost:4001/svg/kb/measuring-type-whitespace.svg" alt="White space measurement" width="50%" /></p>
+
+<dl>
+  <dt>Em Space</dt>
+  <dd>Equal in width to the size of the type. In 24‑point type, an Em space is 24 points wide. Frustratingly, the Em dash is not necessarily 1 Em wide! 😭 The Em space should always be.</dd>
+</dl>
+
+<p><img src="http://localhost:4001/svg/kb/em-space-vs-em-dash.svg" alt="Em space Vs Em Dash" width="60%" /></p>
+
+<dl>
+  <dt>En Space</dt>
+  <dd>One‑half the width of an em space. Old-school type folks call this a <em>nut</em> because En space sounds to close to Em space.</dd>
+  <dt>Thin Space</dt>
+  <dd><em>Usually</em> one‑eighth the width of an em space. You may want to use a thin space on either side of an em dash or en dash.</dd>
+  <dt>Hair Space</dt>
+  <dd><em>Approximately</em> one‑twenty‑fourth the width of an em space. These can be used to create a separation between punctuation glyphs.</dd>
+</dl>
+
+<p>Em measurements are most often used when coding CSS. The issue is that the em size is always relative to the parent type size in the cascade. This can get confusing really quickly. Enter the REM.</p>
+
+<h4 id="the-rem">The REM</h4>
+
+<p>REM stands for <em>Root Em</em>. The difference here is that all REM measurements are anchored in the root element type size. If you define your base type to measure 16 pixels, all other type in rems will be a multiplier of that measurement.</p>
+:ET

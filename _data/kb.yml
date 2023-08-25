@@ -1,0 +1,16 @@
+- title: "Type Knowledge"
+  serial: kb-home
+  point-value: 5
+  deck: "Learn some pretty pro type facts so you can school your designer friends."
+  download:
+  pinterest: "https://pin.it/alainparadis"
+  outcomes:
+    - outcome: "Learn some pretty pro type facts so you can school your designer friends."
+  criteria:
+    - criterium: "This is the first criteria item."
+    - criterium: "The second criterium comes after the first."
+    - criterium: "Never two without three criterium."
+    - criterium: "Two plus two equals four criteria."
+  resource-links: |
+    - "https://learning.oreilly.com/"
+    - "https://ilovetypography.com/2017/04/03/the-evolution-of-chromatic-fonts/"

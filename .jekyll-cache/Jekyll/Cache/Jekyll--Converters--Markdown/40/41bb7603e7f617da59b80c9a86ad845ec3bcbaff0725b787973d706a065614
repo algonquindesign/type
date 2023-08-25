@@ -1,0 +1,17 @@
+I"`<h3 id="print-submission">Print Submission</h3>
+
+<p>Print your invitation two-sided, in colour, on a letter sized sheet on the hallway printer.</p>
+
+<p><img src="http://localhost:4001/svg/submissions-print/print-save-the-date.svg" alt="Save the Date Print Format" width="60%" /></p>
+
+<h3 id="digital-submission">Digital Submission</h3>
+
+<p>Use Illustrator’s <em>Package</em> feature to gather your files for submission. The submission folder should have no <em>Fonts</em> folder in it since you’ve used only Adobe Fonts.</p>
+
+<p>Name your file as usual, <strong>appleseed-johnny-save-the-date.ai</strong></p>
+
+<p>Add a PDF to the submission folder. Zip the folder, then submit.</p>
+
+<p><img src="http://localhost:4001/svg/submission-folder-ai.svg" alt="Illustrator Submission Folder" width="33%" />
+<a href="https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=480635&amp;grpid=0&amp;isprv=0&amp;bp=0&amp;ou=503884" title="Submit on Brightspace" target="_blank"><img src="http://localhost:4001/svg/button-submit-brightspace.svg" alt="Submit on brightspace" width="50%" /></a></p>
+:ET

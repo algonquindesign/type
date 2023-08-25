@@ -1,0 +1,70 @@
+<div class="assignment nav_1" role="navigation" id="navigation">
+	<h3>
+		<a href="{{ site.url}}/{{ site.data.type3[0].url }}" tabindex="4">{{ site.data.type3[0].title }}</a>
+	</h3>
+	<ul class="nav-page-list {% if page.serial contains 'level-3-assignment-1' %}visible{% endif %}">
+		{% assign assignmentPages = site.data.type3[0].pages %} {% for item in assignmentPages %} {% unless item.type == 'assignment-home' %}
+		<li><a href="{{ site.url }}/{{ item.url }}" class="{% if page.serial == item.serial %}current{% endif %}">{{ item.title }}</a></li>
+		{% endunless %} {% endfor %}
+	</ul>
+</div>
+<div class="assignment nav_2">
+	<h3>
+		<a href="{{ site.url}}/{{ site.data.type3[1].url }}" tabindex="5">{{ site.data.type3[1].title }}</a>
+	</h3>
+	<ul class="nav-page-list {% if page.serial contains 'level-3-assignment-2' %}visible{% endif %}">
+		{% assign assignmentPages = site.data.type3[1].pages %} {% for item in assignmentPages %} {% unless item.type == 'assignment-home' %}
+		<li><a href="{{ site.url }}/{{ item.url }}" class="{% if page.serial == item.serial %}current{% endif %}">{{ item.title }}</a></li>
+		{% endunless %} {% endfor %}
+	</ul>
+</div>
+<div class="assignment nav_3">
+	<h3>
+		<a href="{{ site.url }}/{{ site.data.type3[2].url }}" tabindex="6">{{ site.data.type3[2].title }}</a>
+	</h3>
+	<ul class="nav-page-list {% if page.serial contains 'level-3-assignment-3' %}visible{% endif %}">
+		{% assign assignmentPages = site.data.type3[2].pages %} {% for item in assignmentPages %} {% unless item.type == 'assignment-home' %}
+		<li><a href="{{ site.url }}/{{ item.url }}" class="{% if page.serial == item.serial %}current{% endif %}">{{ item.title }}</a></li>
+		{% endunless %} {% endfor %}
+	</ul>
+</div>
+<div class="assignment nav_4">
+	<h3>
+		<a href="{{ site.url }}/{{ site.data.type3[3].url }}" tabindex="7">{{ site.data.type3[3].title }}</a>
+	</h3>
+	<ul class="nav-page-list {% if page.serial contains 'level-3-assignment-4' %}visible{% endif %}">
+		{% assign assignmentPages = site.data.type3[3].pages %} {% for item in assignmentPages %} {% unless item.type == 'assignment-home' %}
+		<li><a href="{{ site.url }}/{{ item.url }}" class="{% if page.serial == item.serial %}current{% endif %}">{{ item.title }}</a></li>
+		{% endunless %} {% endfor %}
+	</ul>
+</div>
+<div class="item nav_5">
+	<h4>
+		<a href="{{ site.url }}/{{ site.data.type3[4].url }}" tabindex="8">{{ site.data.type3[4].title }}</a>
+	</h4>
+	<ul class="nav-page-list {% if page.serial contains 'level-3-item-1' %}visible{% endif %}">
+		{% assign assignmentPages = site.data.type3[4].pages %} {% for item in assignmentPages %} {% unless item.serial contains home %}
+		<li><a href="{{ site.url }}/{{ item.url }}" class="{% if page.serial == item.serial %}current{% endif %}">{{ item.title }}</a></li>
+		{% endunless %} {% endfor %}
+	</ul>
+</div>
+<div class="item nav_6">
+	<h4>
+		<a href="{{ site.url }}/{{ site.data.type3[5].url }}" tabindex="9">{{ site.data.type3[5].title }}</a>
+	</h4>
+	<ul class="nav-page-list {% if page.serial contains 'level-3-item-2' %}visible{% endif %}">
+		{% assign assignmentPages = site.data.type3[5].pages %} {% for item in assignmentPages %} {% unless item.serial contains home %}
+		<li><a href="{{ site.url }}/{{ item.url }}" class="{% if page.serial == item.serial %}current{% endif %}">{{ item.title }}</a></li>
+		{% endunless %} {% endfor %}
+	</ul>
+</div>
+<div class="item nav_7">
+	<h4>
+		<a href="/kb/index.html" tabindex="10">Type Knowledge</a>
+	</h4>
+	<ul class="nav-page-list {% if page.serial contains 'level-3-item-3' %}visible{% endif %}">
+		{% assign assignmentPages = site.data.type3[6].pages %} {% for item in assignmentPages %} {% unless item.serial contains home %}
+		<li><a href="{{ site.url }}/{{ item.url }}" class="{% if page.serial == item.serial %}current{% endif %}">{{ item.title }}</a></li>
+		{% endunless %} {% endfor %}
+	</ul>
+</div>

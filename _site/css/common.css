@@ -1,0 +1,750 @@
+:root
+{
+	/* Colours */
+	--orange: rgb(242, 101, 34);
+	--orange75: rgb(242, 101, 34, 0.75);
+	--orange50: rgb(242, 101, 34, 0.5);
+	--orange33: rgb(242, 101, 34, 0.33);
+	--darkgrey: rgb(100, 100, 100);
+	--mediumgrey: rgb(153, 153, 153);
+	--lightgrey: rgb(230, 230, 230);
+	--white: rgb(255, 255, 255);
+	--blue: rgb(41, 151, 255, 1);
+	--blue50: rgba(129, 203, 255, 1);
+}
+
+html
+{
+	font-size: 120%;
+	line-height: 1.5;
+	color: #000000;
+	font-style: normal;
+	font-weight: normal;
+	font-family: "FiraSans-Light", Arial, Helvetica, sans-serif;
+	font-variant-numeric: slashed-zero;
+	font-variant-ligatures: common-ligatures contextual discretionary-ligatures;
+}
+
+body
+{
+	max-width: 1440px;
+	padding: .5rem;
+	margin: 0 auto;
+	border-left: 1px solid var(--lightgrey);
+	border-right: 1px solid var(--lightgrey);
+}
+
+@font-face {
+  font-family: FiraSans-Light;
+  src: url("../fonts/FiraSans-Light.woff2") format("woff2");
+}
+@font-face {
+  font-family: FiraSans-LightItalic;
+  src: url("../fonts/FiraSans-LightItalic.woff2") format("woff2");
+}
+@font-face {
+  font-family: FiraSans-Book;
+  src: url("../fonts/FiraSans-Book.woff2") format("woff2");
+}
+@font-face {
+  font-family: FiraSans-Regular;
+  src: url("../fonts/FiraSans-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: FiraSans-Italic;
+  src: url("../fonts/FiraSans-Italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: FiraSans-Medium;
+  src: url("../fonts/FiraSans-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: FiraSans-MediumItalic;
+  src: url("../fonts/FiraSans-MediumItalic.woff2") format("woff2");
+}
+@font-face {
+  font-family: FiraSans-Bold;
+  src: url("../fonts/FiraSans-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: FiraSans-BoldItalic;
+  src: url("../fonts/FiraSans-BoldItalic.woff2") format("woff2");
+}
+@font-face {
+  font-family: FiraSans-UltraItalic;
+  src: url("../fonts/FiraSans-UltraItalic.woff2") format("woff2");
+}
+@font-face {
+  font-family: FiraMono-Medium;
+  src: url("../fonts/FiraMono-Medium.woff2") format("woff2");
+}
+
+p { lang="en-CA" hyphens: auto; }
+
+img
+{
+	border: 0px solid rgba(100, 100, 100, 1);
+	display: block;
+	margin: 3rem auto;
+	max-width: 100%;
+}
+
+img.size90 {
+        max-width: 90%;
+    }
+
+img.size80 {
+        max-width: 80%;
+    }
+
+img.size60 {
+        max-width: 60%;
+    }
+
+img.size50 {
+        max-width: 50%;
+    }
+
+img.size33 {
+        max-width: 33%;
+    }
+
+img.size25 {
+        max-width: 25%;
+    }
+
+
+/* * * * * * * * *  * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * General Type Stuff * * * * * * * * */
+/* * * * * * * * *  * * * * * * * * * * * * * * * * * * */
+.fs05 { font-size: 0.5rem; }
+.fs07 { font-size: 0.7rem; }
+.fs08 { font-size: 0.8rem; }
+.fs09 { font-size: 0.9rem; }
+.fs10 { font-size: 1.0rem; }
+.fs11 { font-size: 1.1rem; }
+.fs12 { font-size: 1.2rem; }
+.fs15 { font-size: 1.5rem; }
+.fs16 { font-size: 1.6rem; }
+.fs20 { font-size: 2.0rem; }
+.fs25 { font-size: 2.5rem; }
+.fs30 { font-size: 3.0rem; }
+
+a, a:link
+{
+	color: black;
+	text-decoration-color: var(--blue50);
+	text-decoration-thickness: 3px;
+	text-underline-offset: 1.5px;
+}
+
+a:visited { color: var(--darkgrey); }
+a:hover { color: var(--blue); }
+a:active { color: var(--orange100); }
+a:focus { outline: 2px solid black; }
+
+a.current
+{
+	font-family: "FiraSans-Medium";
+	color: var(--orange);
+}
+
+a.external[target="_blank"]::after
+{
+	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+	margin: 0px 3px 0px 5px;
+}
+
+.uppercase { text-transform: uppercase; }
+.small { font-size: .8rem; }
+.nav-page-list a { text-decoration-thickness: 2px; }
+
+.italic
+{
+	font-weight: normal;
+	font-family: "FiraSans-LightItalic", Arial, Helvetica, sans-serif;
+}
+
+.blue { color: var(--blue); }
+.orange { color: var(--orange); }
+.bold, bold { font-family: "FiraSans-Medium"; }
+
+#content svg
+{
+	display: block;
+	margin: .5rem auto;
+}
+
+/* I used this here: kb/anatomy-of-type.html */
+#content .inline-30-percent
+{
+	display: inline;
+	max-width: 30%;
+	border: 1px solid var(--mediumgrey);
+	padding: .2rem;
+	margin: 0;
+}
+
+#content .float-left
+{
+	float: left;
+	max-width: 50%;
+}
+
+figure
+{
+	margin: 3rem auto;
+	padding: 0;
+	max-width: 90%;
+}
+
+figure svg
+{
+	margin: 0;
+	max-width: 100%;
+}
+
+figcaption
+{
+	color: var(--blue);
+	font-family: FiraSans-Italic;
+	margin: 0 auto 0rem auto;
+}
+
+em, italic, .italic { font-family: "FiraSans-LightItalic", Arial, Helvetica, sans-serif; }
+.text-center { text-align: center; }
+a.text-center { text-align: center; }
+.text-right, a.text-right { text-align: right; }
+
+blockquote
+{
+	font-weight: normal;
+	font-family: "FiraSans-Regular", Arial, Helvetica, sans-serif;
+	margin: 2rem 0 2rem 2rem;
+	margin-left: 2rem;
+	margin-bottom: 2rem;
+	border-left: 4px solid var(--mediumgrey);
+	padding-left: 1rem;
+	padding-right: 6rem;
+	color: var(--blue);
+}
+
+blockquote ~ a { color: var(--mediumgrey); }
+
+em
+{
+	font-style: normal;
+	font-weight: normal;
+	font-family: "FiraSans-LightItalic", Arial, Helvetica, sans-serif;
+}
+
+.footnote
+{
+	font-style: normal;
+	font-weight: normal;
+	font-size: .75rem;
+	color: var(--mediumgrey);
+}
+
+strong
+{
+	font-style: normal;
+	font-weight: normal;
+	font-family: "FiraSans-Regular";
+	color: var(--blue);
+}
+
+dt
+{
+	font-style: normal;
+	font-weight: normal;
+	font-family: "FiraSans-Regular";
+	margin-top: 0.5em;
+	margin-left: 0.5rem;
+}
+
+dd
+{
+	margin-bottom: 0.25em;
+	margin-left: 2em;
+}
+
+dd:last-of-type, ul.hasBullets li:last-of-type { margin-bottom: 1rem; }
+
+code, .command
+{
+	background: #ededed;
+	font-size: .86rem;
+	font-style: normal;
+	font-weight: normal;
+	font-family: "FiraMono-Medium";
+	padding: 0.16rem 0.4rem;
+	border-radius: 4px;
+	border: 1px solid lightgrey;
+}
+
+.mono
+{
+	font-style: normal;
+	font-weight: normal;
+	font-family: "FiraMono-Medium";
+}
+
+.post_title
+{
+	display: block;
+	font-style: normal;
+	font-weight: normal;
+	font-family: "FiraSans-Medium";
+	margin-top: 2em;
+}
+
+.post_excerpt
+{
+	font-style: normal;
+	font-weight: normal;
+	font-family: "FiraSans-Light";
+	font-size: 1rem;
+}
+
+.post_excerpt p { margin-bottom: 1rem; }
+.pagination { margin-top: 3rem; }
+
+#assessment { border: 2px solid var(--blue); padding: 0 1rem 0 1rem; }
+#assessment h3 { margin-top: 0; line-height: 1rem; }
+
+/* * * * * * * * * * LISTS LISTS LISTS * * * * * * * * */
+ul.inline-list { margin-top: 1rem; }
+ul.inline-list li
+{
+	display: inline;
+	list-style: none;
+}
+
+ul.inline-list li a
+{
+	padding-right: 1rem;
+	padding-left: .5rem;
+	border-right: 1px solid var(--mediumgrey);
+	text-decoration-color: var(--blue50);
+	text-decoration-thickness: 2px;
+	text-underline-offset: 1.5px;
+}
+
+ul.inline-list li { display: inline; }
+
+ol {
+	margin-top: 1rem;
+}
+ol li {	margin-left: -1rem; }
+
+ul.hasBullets
+{
+	margin-top: 1rem;
+	list-style: none;
+}
+
+ul.hasBullets li
+{
+	text-indent: -1rem;
+	margin-left: 1rem;
+}
+
+ul.hasBullets li:before
+{
+	content: "\27A4";
+	margin-right: 10px;
+	font-size: 0.5rem;
+}
+
+ul.hasBullets li.second
+{
+	text-indent: 1rem;
+	padding-left: -2rem;
+}
+
+ul.hasBullets li.second::before
+{
+	content: "\2043";
+	margin-right: 10px;
+	font-size: 1rem;
+}
+
+ul.hasBullets li.third
+{
+	text-indent: -3rem;
+	padding-left: 5rem;
+}
+
+ul.hasBullets li.third::before
+{
+	content: "\2022";
+	margin-right: 10px;
+	font-size: 1rem;
+}
+
+ul > ul
+{
+	padding-left: 1rem;
+	margin-top: -1rem;
+}
+
+.nav-page-list
+{
+	visibility: hidden;
+	display: none;
+	margin-bottom: .5rem;
+	margin-left: .5rem;
+}
+
+.columns3
+{
+	columns: 3 12rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.site-id
+{
+	font-weight: normal;
+	font-family: "FiraSans-UltraItalic";
+	font-size: 6rem;
+	align-self: start;
+}
+
+a.site-id,
+a:visited.site-id
+{
+	text-decoration: none;
+	color: black;
+	border-bottom: 0;
+}
+
+.site-id sup
+{
+	line-height: 0;
+	font-family: FiraSans-BoldItalic;
+}
+
+a:hover.site-id { color: var(--blue); }
+
+/* * * * * * Heading Formatting * * * * * */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+	font-style: normal;
+	font-weight: normal;
+	font-family: "FiraSans-Medium";
+}
+
+h1, h2 { letter-spacing: -0.0312rem; }
+h2 { font-size: 1.2rem; }
+
+/* * * * * * * * * * MAIN CONTENT AREA * * * * * * * * */
+#content h2
+{
+	font-size: 1.4rem;
+	margin-top: 1.5rem;
+}
+
+#content h3
+{
+	font-family: "FiraSans-Medium";
+	font-size: 1.1rem;
+	text-transform: uppercase;
+}
+
+#content h4 { font-size: 1.0rem; }
+#content h1 + p,
+#content h2 + p,
+#content h3 + p,
+#content h4 + p,
+#content h5 + p,
+#content h6 + p { margin-top: 0rem; }
+#content h1 + h2,
+#content h2 + h3,
+#content h3 + h4,
+#content h4 + h5,
+#content h5 + h6 { margin-top: .5rem; }
+
+#content h3,
+#content h4,
+#content h5
+{
+	margin-top: 1.5rem;
+	margin-bottom: 0;
+}
+
+#content p + p { margin-top: 1rem; }
+#content .left-margin { margin-left: 1.1rem; }
+#content .top-margin { margin-top: 1.0rem; }
+
+#content h1
+{
+	font-family: "FiraSans-Medium";
+	font-size: 1.6rem;
+	color: var(--blue);
+	border-bottom: 2px solid var(--blue);
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	line-height: 100%;
+	padding-bottom: .6667rem;
+}
+
+#content ol li { list-style-type: decimal; }
+
+#content ul.links
+{
+	padding: .25rem;
+	text-align: center;
+}
+
+#content ul li.links
+{
+	display: inline-block;
+	margin-right: 2rem;
+}
+
+.visible
+{
+	display: block;
+	visibility: visible;
+}
+
+.invisible
+{
+	display: none;
+	visibility: hidden;
+}
+
+#course-info1 div, #course-info2 div
+{
+	display: none;
+	visibility: hidden;
+}
+
+#course-info1, #course-info2
+{
+	font-size: .875rem;
+	line-height: 160%;
+}
+
+#course-info1 h3,
+#course-info2 h3,
+.assignment
+{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#top-nav a
+{
+	font-family: "FiraSans-Regular";
+	margin-right: .5rem;
+	padding-right: 1rem;
+	border-right: 1px solid var(--mediumgrey);
+}
+
+#top-nav a:last-child { border-right: 0; }
+
+.nav_1 p, .nav_2 p, .nav_3 p, .nav_4 p, .nav_5 p, .nav_6 p, .nav_7 p, .nav_8 p
+{
+	display: none;
+	visibility: hidden;
+}
+
+.item { font-size: 0.875rem; }
+
+.deck
+{
+	font-size: 1.2rem;
+	font-family: "FiraSans-Medium", Arial, Helvetica, sans-serif;
+	font-style: normal;
+	margin-bottom: 1rem;
+	color: rgba(100, 100, 100, 1);
+}
+
+.deck i
+{
+	font-family: "FiraSans-MediumItalic", Arial, Helvetica, sans-serif;
+	font-style: normal;
+}
+
+.footer a, .footer a:link, .footer a:visited
+{
+	font-family: "FiraSans-LightItalic", Arial, Helvetica, sans-serif;
+	font-size: .8rem;
+	display: block;
+	margin-bottom: .25rem;
+	text-decoration-color: var(--blue50);
+	text-decoration-thickness: 2px;
+	text-underline-offset: 1px;
+}
+
+.footer { color: var(--darkgrey); }
+
+.footer1 a.site-id
+{
+	font-style: normal;
+	font-weight: normal;
+	font-family: "FiraSans-UltraItalic";
+	font-size: 1.2rem;
+	text-decoration: none;
+	color: var(--darkgrey);
+}
+
+.footer1 a.site-id:hover { color: var(--blue); }
+
+.footer1 h4, .footer2 h4, .footer3 h4, .footer4 h4
+{
+	font-style: normal;
+	font-weight: normal;
+	font-family: "FiraSans-MediumItalic";
+}
+
+.footer1 ul, .footer2 ul, .footer3 ul, .footer4 ul
+{
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: .5rem;
+	padding-top: 0;
+}
+
+.footer1
+{
+	border-top: 6px solid var(--lightgrey);
+	padding-top: 1rem;
+	margin-top: 2rem;
+}
+
+/* SVG Styles */
+.darkgrey { fill: var(--darkgrey); }
+.mediumgrey { fill: var(--mediumgrey); }
+.lightgrey { fill: var(--lightgrey); }
+a.hover-blue:hover { color: var(—blue); }
+
+/* END SVG Styles */
+nav span { padding-right: 2rem; }
+
+/* Rubric Layout */
+#content ul.criteria
+{
+	margin: 0;
+	padding: 0;
+}
+
+table
+{
+	table-layout: fixed;
+	width: 100%;
+	white-space: nowrap;
+	border-spacing: .25rem;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+
+th
+{
+	background: #EBEBEB;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	font-family: "FiraMono-Medium";
+	padding: .25rem;
+}
+
+th.column-3 { text-align: center; }
+.column-1 { width: 30%; }
+.column-2 { width: 50%; }
+
+.column-3
+{
+	text-align: center;
+	width: 20%;
+}
+
+td
+{
+	white-space: nowrap;
+	padding: .25rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-bottom: 1px solid silver;
+}
+
+td.wrap { white-space: normal; overflow: visible; }
+.assessment td:nth-of-type(1) { font-family: FiraSans-Regular; vertical-align: top; }
+
+/* * * * * * * * * * 672px – 960px * * * * * * * * * */
+
+@media only screen and (min-width: 42rem)
+{
+	html { font-size: 110%; }
+	
+	#course-info1 h3, course-info2 h3, #course-info1 div, #course-info2 div
+	{
+		display: block;
+		visibility: visible;
+	}
+	
+	.nav-page-list
+	{
+		visibility: visible;
+		display: block;
+	}
+	
+	.site-id1 { font-size: 6rem; }
+	
+	#course-info1 h3, #course-info2 h3
+	{
+		border-bottom: 2px solid var(--lightgrey);
+		padding-bottom: .5rem;
+		margin-right: 1rem;
+		margin-bottom: 0.875rem;
+		line-height: 1.3rem;
+		font-weight: normal;
+		font-family: "FiraSans-Regular";
+	}
+	
+	.assignment h3, .item h4
+	{
+		border-top: 2px solid var(--lightgrey);
+		padding-top: .5rem;
+		margin-right: 1rem;
+		margin-bottom: 0.875rem;
+		line-height: 1.3rem;
+		font-weight: normal;
+		font-family: "FiraSans-Regular";
+	}
+	
+	.assignment h3, .item h4 { margin-top: 2.25rem; }
+	
+	.nav_1 p, .nav_2 p, .nav_3 p, .nav_4 p
+	{
+		display: block;
+		visibility: visible;
+	}
+	
+	#content h1 { margin-top: 0; }
+	
+	.footer2, .footer3, .footer4
+	{
+		border-top: 6px solid var(--lightgrey);
+		padding-top: 1rem;
+		margin-top: 2rem;
+	}
+}
+
+/* * * * * * * * * * 960px – 1440px * * * * * * * * * */
+
+@media only screen and (min-width: 60em)
+{
+	html { font-size: 100%; }
+	.site-id { font-size: 7rem; }
+	#content { padding-right: 1rem; }
+}

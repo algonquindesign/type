@@ -1,0 +1,77 @@
+I"m<p>Before we can match up any two type families, we need to first decide what our choice will be based on. There are three major criteria, context, visual harmony and functionality.</p>
+
+<h4 id="by-context">By Context</h4>
+
+<p>Context will be our first guide in selecting typefaces. Our choices for a historical novel will look very different from those for a technical manual. This is where knowledge of the historical origins of typefaces is needed. An <a href="/kb/classification-categories.html#old-style">old style serif typeface</a> may be used for a historical novel, while a <a href="/kb/classification-categories.html#sans-serif">humanist sans serif</a> could be our choice for a technical manual.</p>
+
+<p><img src="http://localhost:4001/svg/gothic-old-style.svg" alt="Gothic &amp; old style" title="Gothic &amp; old style" width="200px" /></p>
+
+<p>These two glyphs are from a gothic family and an old style typeface. They’re not from the same era, but they do make a harmonious pair.</p>
+
+<h4 id="for-visual-harmony">For Visual Harmony</h4>
+
+<p>Visual harmony is a little harder to define. We know it when we see it and notice when it is lacking. Families with similar proportions and physical characteristics will be more compatible. As an example, two families that have two-storey ‘a’ glyphs, amongst other similarities, may be harmonious together.</p>
+
+<p><img src="http://localhost:4001/svg/two-storey-a.svg" alt="Two storey a" title="Two storey a" width="200px" /></p>
+
+<p>Here, we have Caslon and Myriad. Their proportions create a good match.</p>
+
+<h4 id="functionality">Functionality</h4>
+
+<p>Our typeface selection needs to work with the content. If our historical novel’s copy requires ligatures, well, we’ll need make sure our typeface includes ligatures. If the technical manual requires fraction glyphs, that will also impact our choice.</p>
+
+<p><img src="http://localhost:4001/svg/ligature-fraction.svg" alt="Ligatures &amp; Fractions" title="Ligatures &amp; Fractions" width="300px" /></p>
+
+<p>These glyphs are part of Formata and Caslon respectively. Both families have extensive glyph complements.</p>
+
+<h3 id="type-marriage">Type Marriage</h3>
+
+<p>Matching up two typefaces is a bit of a dark art. Some go on instinct and experience. Others are more methodical. Using both of the above is probably advisable. These are all elements (in no particular order) to consider in pairing typefaces:</p>
+
+<ul class="hasBullets">
+	<li>classification</li>
+	<li>glyph style</li>
+	<li>x-height</li>
+	<li>glyph width</li>
+	<li>...and more.</li>
+</ul>
+
+<p>What often happens is that you’re given the first family. That way, you only need to find a typeface to pair with it. Let’s say you’re given Lubalin Graph to start with. It’s a geometric slab serif.</p>
+
+<p><img src="http://localhost:4001/svg/lubalin-avant-garde-pairing.svg" alt="Lubalin paired with Avant Garde" title="Lubalin paired with Avant Garde" width="800px" /></p>
+
+<p>Which font are geometric sans-serifs? There’s Futura, for sure. There’s also Avant Guard. That’s the font that Lubalin was based on. We’ve chosen Avant Garde above.</p>
+
+<h3 id="what-to-avoid">What to Avoid?</h3>
+
+<p>When trying to find a match, in this case, <em>opposites attract</em> isn’t really true. This means we want to avoid pairing a really wide font with a really arrow one. The same goes for an ultra-light font and a really bold one – not a good way to go.</p>
+
+<p><img src="http://localhost:4001/svg/thin-thick-narrow-wide.svg" alt="thin-thick-narrow-wide" title="thin-thick-narrow-wide" width="400px" /></p>
+
+<p>Despite the fact that these two glyphs are part of the same family, <a href="https://acumin.typekit.com">Acumin</a>, there’s way too much contrast in weight <em>and</em> in width for them to be used together.</p>
+
+<h3 id="a-good-match">A Good Match</h3>
+
+<p>In this first case, I was given Mrs Eaves as the typeface for body text. It’s a challenging face to work with, since it has a tiny x-height. This requires that we choose a weight for Franklin that doesn’t over-power Mrs Eaves.</p>
+
+<p><img src="http://localhost:4001/svg/font-pairing-practice-good-match.svg" alt="Font pairing practice good match" title="Font pairing practice good match" width="800px" /></p>
+
+<p>I’d characterize this pairing as a bold or a strong one. Franklin is a powerful typeface. Mrs Eaves is delicate. As you can see at the bottom-right, Franklin Gothic Heavy is just that — too heavy. So what we can learn here is that font pairing is not only about choosing a second face that doesn’t clash. It’s also about creating an effect. In this case, the pairing works, but there’s a clear contrast in effect.</p>
+
+<h3 id="a-poor-match">A Poor Match</h3>
+
+<p>Again, I was given Mrs Eaves for body text. ITC’s Avant Garde is a poor match.</p>
+
+<p><img src="http://localhost:4001/svg/font-pairing-practice-poor-match.svg" alt="Font pairing practice poor match" title="Font pairing practice poor match" width="800px" /></p>
+
+<p>This is why:</p>
+
+<ul class="hasBullets">
+	<li>Their general appearance just clashes.</li>
+	<li>Avant Garde is a geometric sans. Mrs Eaves has a calligraphic style. The sans could be termed <em>computer-generated</em>, while the serif is reminiscent of a pen work.</li>
+	<li>Avant Garde has a single storey g and a. Mrs Eaves has two storey g and a.</li>
+	<li>Avant Garde has a huge x-height. Eaves has a tiny x-height.</li>
+</ul>
+
+<p>That is all. Got it?</p>
+:ET

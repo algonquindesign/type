@@ -1,0 +1,39 @@
+courses:
+  - title: Typography 3
+    shortname: Type 3
+    level: 3
+    hours: 42
+    coursecode: DSN1534
+    prof: "Alain Paradis"
+    email: "paradia@algonquincollege.com"
+    position: "Program Coordinator, Professor"
+    course-description: "Proficient typesetting allows a designer to compose and structure complex passages of content that are visually appealing in order to allow the information to be easily followed. Students combine text and imagery to craft professional layouts and informational documents. "
+    brightspace: "https://brightspace.algonquincollege.com/d2l/home/503881"
+  - title: Typography 4
+    shortname: Type 4
+    level: 4
+    hours: 42
+    coursecode: DSN1540
+    prof: "Alain Paradis"
+    email: "paradia@algonquincollege.com"
+    position: "Program Coordinator, Professor"
+    course-description: "Building on the basics of typography, students explore type as craft by experimenting with handmade letters, designing glyphs, and using type as a form of visual expression. Students enhance their sensitivity to the shapes and uses of letters within print and multimedia by working on projects ..."
+    brightspace: "https://brightspace.algonquincollege.com/d2l/home/503884"
+program-links:
+  - name: "Algonquin Design"
+    url: "https://algonquindesign.ca/"
+  - name: "Computer Graphics"
+    url: "https://cg.algonquindesign.ca/"
+  - name: "Book an Appointment"
+    url: "https://outlook.office365.com/owa/calendar/AlgonquinCollegeGraphicDesign@AlgonquinLivecom.onmicrosoft.com/bookings/"
+  - name: "Assessment"
+    url: "/pages/assessment.html"
+other-links:
+  - name: "Centre for Accessible Learning"
+    url: "https://www.algonquincollege.com/cal"
+  - name: "Peer Tutoring"
+    url: "https://algonquincollege.libguides.com/slc/peer-tutoring"
+  - name: "Ergonomics"
+    url: "https://support.apple.com/en-ca/HT205655"
+  - name: "Your Price is Too High"
+    url: "/pages/your_price_is_too_high.html"

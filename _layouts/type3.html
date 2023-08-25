@@ -1,0 +1,110 @@
+<! DOCTYPE html>
+<html lang="en-GB">
+<head>
+	{% include head.html %}
+</head>
+<body>
+<div id="grid">
+	<div id="top-nav">
+			<a href="{{ site.url }}/index.html" title="Type Home" tabindex="1">Home</a>
+			<a href="{{ site.url }}/type-3/index.html" title="Type 3 Home" tabindex="2">Type&nbsp;3</a>
+			<a href="{{ site.url }}/type-4/index.html" title="Type 4 Home" tabindex="3">Type&nbsp;4</a>
+	</div>
+	<div id="site-id">
+		<a href="{{ site.url }}/type-3/index.html" class="site-id" tabindex="0">Type<sup>3</sup></a>
+	</div>
+	<div id="course-info1">{% include course-info1.html %}</div>
+	<div id="course-info2">{% include course-info2.html %}</div>
+	<div id="content" role="main">
+	{% if page.serial contains "home" %} 
+	<h1>
+	{% if page.serial contains 'course-home' %} 
+		{{ page.title }}
+	{% endif %}
+	<ul>
+	{% for headings in site.data.type3 %}
+		{% if page.serial == headings.serial %} 
+			<li>{{ headings.title }}</li>
+		{% endif %}
+	{% endfor %}
+	</ul>
+	</h1>
+	{% elsif page.serial contains "subpage" %}
+	<h1>
+	<ul>
+	{% for allHeadings in site.data.type3 %}
+	{% for headings in allHeadings.pages %}
+		{% if page.serial == headings.serial %} 
+			<li>{{ headings.title }}</li>
+		{% endif %}
+	{% endfor %}
+	{% endfor %}
+	</ul>
+	</h1>
+	{% endif %}
+	<div class="deck">
+	{% if page.serial contains "home" %}
+	<ul>
+	{% for decks in site.data.type3 %}
+		{% if page.serial == decks.serial %} 
+			<li>{{ decks.deck }}</li>
+		{% endif %}
+	{% endfor %}
+	</ul>
+	{% else %}
+	<ul>
+	{% for entry in site.data.type3 %}
+		{% for decks in entry.pages %}
+			{% if page.serial == decks.serial %} 
+				<li>{{ decks.deck }}</li>
+			{% endif %}
+		{% endfor %}
+	{% endfor %}
+	</ul>
+	{% endif %}
+	</div>
+	<div>
+	{% if page.serial contains 'home' and page.serial contains 'assignment' %}
+	<div id="assessment">
+	<h3>How To Get An A</h3>
+	<p>This is what you need to do to ace this assignment.</p>
+	<ul class="hasBullets">
+		{% for entry in site.data.type3 %}
+		{% for item in entry.outcomes %}
+		{% if page.serial == entry.serial %} 
+			<li>{{ item.outcome }}</li>
+		{% endif %} 
+		{% endfor %}
+		{% endfor %}
+	</ul>
+ 	{% include rubric.html %}
+	</div>
+	<h3>BrightSpace Submission Links</h3>
+	<ol>
+	   {% for entry in site.data.type3 %}
+	   {% for item in entry.brightspace %}
+	   {% if page.serial == entry.serial %} 
+		   <li><a href="{{ item.bs_url}}" title="{{ item.bs_link_title }}" target="_blank">{{ item.bs_link_title }}</a></li>
+	   {% endif %} 
+	   {% endfor %}
+	   {% endfor %}
+	</ol>
+	<h3>Video Playlist</h3>
+	<ul class="hasBullets">
+	   {% for entry in site.data.type3 %}
+	   {% for item in entry.videos %}
+	   {% if page.serial == entry.serial %} 
+		   <li><a href="{{ item.video_url}}" title="{{ item.video_title }}" target="_blank">{{ item.video_title }}</a></li>
+	   {% endif %} 
+	   {% endfor %}
+	   {% endfor %}
+	</ul>
+	<h3>The Brief</h3>
+	{% endif %}
+	{{ content }}
+	</div>
+	</div>
+	{% include nav_type_3.html %}
+	{% include footer.html %}
+</body>
+</html>

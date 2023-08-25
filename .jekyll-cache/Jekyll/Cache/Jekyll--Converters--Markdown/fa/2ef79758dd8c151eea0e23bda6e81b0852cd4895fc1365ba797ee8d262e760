@@ -1,0 +1,39 @@
+I"�<h3 id="prepare-print-ready-files">Prepare Print-Ready Files</h3>
+
+<p>All the assignments you submit in Typography courses should be print ready. This is what you have to check before packaging your files.</p>
+
+<h4 id="file-organization">File Organization</h4>
+
+<p>As you work, keep your files organized in a project folder. You should have your main page layout file.</p>
+
+<blockquote>
+  <p>You will always simply submit a packaged folder including a PDF file for all assignments.</p>
+</blockquote>
+
+<h4 id="process-colour">Process Colour</h4>
+
+<p>When the project calls for process colour (or four colour process), there should be no spot colours in any of the files you submit. Empty your swatches panel of all unused colours.</p>
+
+<h4 id="font-files">Font files</h4>
+
+<p>As we’ll only be using Adobe Fonts, there’s not much to do here. No fonts will ever be packaged with your projects, so you have nothing to worry about. Be sure to check <span class="command">Type &gt; Find Fonts…</span> to ensure only the fonts you’re using are in your document.</p>
+
+<p>If there’s a font folder in your package folder, there’s a problem. Look inside to see what’s there. It’s not an Adobe Font, so you need to go remove it from your InDesign file, then package it again.</p>
+
+<h3 id="your-submission-folder">Your Submission Folder</h3>
+
+<p>Be sure your InDesign document is named as usual:</p>
+
+<p><strong>appleseed-johnny-010-magazine.indd</strong></p>
+
+<dl>
+  <dt>Note</dt>
+  <dd>Never rename a file while it’s open. Close it. Rename it in Finder, then re-open it.</dd>
+</dl>
+
+<p>When you package your InDesign document with <span class="command">File &gt; Package…</span> It will create a folder that’s properly named if your file was well named to start with.</p>
+
+<p><img src="http://localhost:4001/svg/submission-indesign-package.svg" alt="InDesign Submission Folder" width="50%" /></p>
+
+<p><a href="https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=480499&amp;grpid=0&amp;isprv=0&amp;bp=0&amp;ou=503881" title="Submit on Brightspace" target="_blank"><img src="http://localhost:4001/svg/button-submit-brightspace.svg" alt="Submit on brightspace" width="50%" /></a></p>
+:ET

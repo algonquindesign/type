@@ -1,0 +1,170 @@
+I"w&<p>We need to establish margins and the dimensions of the text area. We’ll make it that the height of our text area is divisible by our chosen leading value.</p>
+
+<p>Working on a baseline grid can be tricky because the text sticks to the grid as you move it on the page. It makes things jump in increments, which is jarring. We’ll get a handle on this with this assignment.</p>
+
+<p>Before we begin building our grid, it’s important to understand that this whole process will be based on leading, and not text size. The reason for this is that the measurement of leading is taken from one baseline to the next. We begin by choosing our type size, then the leading that suits that text size.</p>
+
+<p><a href="" target="_blank"><img src="http://localhost:4001/svg/button-download.svg" alt="Download Formative Assets" width="40%" /></a></p>
+
+<h3 id="the-settings">The Settings</h3>
+
+<p>While working in InDesign, you should have guides turned on, <code class="language-plaintext highlighter-rouge">⌘ ;</code>. If you’re aligning to the baseline grid, it stands to reason you should turn it on, <code class="language-plaintext highlighter-rouge">⌘ '</code> so you can see it.</p>
+
+<blockquote>
+  <p>Keep in mind that the baseline grid settings override the leading settings.</p>
+</blockquote>
+
+<p>It’s best to first change some baseline grid settings. Hit <code class="language-plaintext highlighter-rouge">⌘-k</code>. Go to <code class="language-plaintext highlighter-rouge">Grids</code>. Start the grids at zero relative to the <code class="language-plaintext highlighter-rouge">Top Margin</code>. Make sure <code class="language-plaintext highlighter-rouge">Increment Every</code> is set to 12pt.</p>
+
+<blockquote>
+  <p>There are two steps to using the baseline grid. The first is to establish the grid increment. The second is to align your text to the grid.</p>
+</blockquote>
+
+<h3 id="build-a-modular-grid">Build a Modular Grid</h3>
+
+<p>Let’s start to build our page grids from scratch. The following is our starting information, though this will change by project.</p>
+
+<ul class="hasBullets">
+	<li>Letter sized pages - 612pt &#x00D7; 792pt</li>
+	<li>12 point leading</li>
+	<li>increased margins at the bottom for folios</li>
+</ul>
+
+<blockquote>
+  <p>You need to start your project with your type selection and hierarchy established. You’ll build your page grid based on this information (and maybe tweak it while building your grid).</p>
+</blockquote>
+
+<p>Work in points since the type measurements are in points. A letter page measures 792 points tall. 792 is divisible by: … 6, 8, 9, 11, 12, 18, 22, 24, 33, 36, 44, 66, 72. You can use <a href="https://www.calculatorsoup.com/calculators/math/factors.php" target="_blank">this factoring calculator</a> to get divisors of any given number. These numbers are called <em>factors</em>, or <em>divisors</em>. This gives us numbers to work with for our leading at different type sizes.</p>
+
+<p><img src="http://localhost:4001/svg/baseline-grids/our-page.svg" alt="Baseline Grids - Our Page" width="60%" /></p>
+
+<p>Let’s create our modular grid on a Parent Page. First, we’ll go to <code class="language-plaintext highlighter-rouge">Layout &gt; Margins &amp; Columns…</code>. Set margins to:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Margins</th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Top</td>
+      <td>60pt</td>
+      <td>Inside</td>
+      <td>60pt</td>
+    </tr>
+    <tr>
+      <td>Bottom</td>
+      <td>72pt</td>
+      <td>Outside</td>
+      <td>60pt</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This leaves a content area that measures 660pt tall. This is divisible by 10, 11, 12, 15, 20, 22, 30, 33, 44, 55, 60, 66. Those are some good numbers for leading.</p>
+
+<blockquote>
+  <p>You should always create margins which measure multiples of your base leading, or a divisor of it.</p>
+</blockquote>
+
+<p>Now, let’s create a new layer named <code class="language-plaintext highlighter-rouge">Layout Grids</code>. Move to your parent pages. Let’s aim to create a square grid module. We’ll use our 72pt value from the bottom margin as a starting point.</p>
+
+<p>On the new layer, let’s use <code class="language-plaintext highlighter-rouge">Layout &gt; Create Guides…</code> starting with 12pt gutters. From here, increase the numbers of columns and rows until they match our 72pt square. That gives us:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Rows</th>
+      <th> </th>
+      <th>Columns</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Number</td>
+      <td>8</td>
+      <td>Number</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>Gutter</td>
+      <td>12pt</td>
+      <td>Gutter</td>
+      <td>12pt</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Now we have a modular grid which will easily accommodate text and graphics. We’re ready to set up and work with our baseline grid.</p>
+
+<h3 id="basic-baseline-alignment">Basic Baseline Alignment</h3>
+
+<p>Aligning simple columns of text to the baseline is not difficult. Set your type to the desired size and leading. Note your leading value. Go to <code class="language-plaintext highlighter-rouge">Preferences &gt; Grids</code> to set your increment setting to the leading value.</p>
+
+<p>The second step is to lock your text to the baseline. To do so, access the paragraph style settings. Go to <code class="language-plaintext highlighter-rouge">Indents &amp; Spacing</code> to set the grid alignment to <code class="language-plaintext highlighter-rouge">All Lines</code>. This is the result.</p>
+
+<p><img src="http://localhost:4001/svg/baseline-grids/baseline-grids.svg" alt="Baseline Grids" width="90%" /></p>
+
+<h3 id="varied-leading">Varied Leading</h3>
+
+<p>Things get a little more challenging when there are titles interspersed in the text. Here, we need to plan for spacing before the titles.</p>
+
+<p><img src="http://localhost:4001/svg/baseline-grids/varied-leading.svg" alt="Using baseline grids with varied leading" width="90%" /></p>
+
+<p>Here, we have two options. We can simply lock the sub-title to the baseline grid, then add a 1pt space before them. That will create the effect above.</p>
+
+<p><img src="http://localhost:4001/svg/baseline-grids/varied-leading-floating.svg" alt="Using baseline grids with varied leading" width="90%" /></p>
+
+<p>If you want a small space after, you can not lock it to the baseline, then set the space after and the space before to whatever you want, as shown above. The only problem with this approach is that if you have sub-title in the neighbouring column, it won’t align.</p>
+
+<h3 id="titles">Titles</h3>
+
+<p>We’ll align all titles to the baseline. The first piece of text at the top of the page has to have a <em>type size</em> in a multiple of the baseline grid since the leading has no effect.</p>
+
+<p><img src="http://localhost:4001/svg/baseline-grids/title-and-strapline.svg" alt="Setting titles" width="90%" /></p>
+
+<p>In our case, the main title is second on the page. Its leading should be divisible by the leading value.</p>
+
+<div class="text-right" style="margin-top: 3rem;">&#8613; <a href="#top">Top</a></div>
+
+<h3 id="captions">Captions</h3>
+
+<p>If we want our captions to be a smaller type size than the body copy, we can set the leading to value that has a common multiple to the baseline grid value.</p>
+
+<p><img src="http://localhost:4001/svg/baseline-grids/captions.svg" alt="Setting captions" width="90%" /></p>
+
+<p>In this case, we have a 12pt baseline grid interval. We’ll set our leading to 9 points. Set the <code class="language-plaintext highlighter-rouge">Align to Grid</code> setting to <code class="language-plaintext highlighter-rouge">First Line</code> Because…</p>
+
+<p>12, 24, <strong>36</strong>, 48, 60</p>
+
+<p>9, 18, 27, <strong>36</strong>, 45</p>
+
+<p>The text will align to the baseline after four lines of text.</p>
+
+<h3 id="custom-baseline-grids">Custom Baseline Grids</h3>
+
+<p>It’s possible to set a custom baseline grid for a single text frame. This is ideal for a sidebar story. The settings are in <code class="language-plaintext highlighter-rouge">Object &gt; Text Frame Options &gt; Baseline Options</code>. You’ll want to maintain the rhythm of the page, so use a value that fits with the rest of the page.</p>
+
+<h3 id="cap-height-grids">Cap Height Grids</h3>
+
+<p>A problem often occurs when tops of photos don’t align with the top of the text. To solve this, we’ll create a cap height grid with which we’ll align our photos.</p>
+
+<p><img src="http://localhost:4001/svg/baseline-grids/cap-height.svg" alt="Line up photos with the cap height" width="90%" /></p>
+
+<p>In figure 1, you see the unwanted space in the orange hatched space. In figure number 2, you see the cap line grid. The photos have been moved to align with it.</p>
+
+<h3 id="persuasive-baseline-grids">Persuasive Baseline Grids</h3>
+
+<p>This is an elegant, more relaxed way to align text to our baseline without actually locking it to the baseline grid. The strategy here is to have the leading for each piece of text have a common denominator. That means all your leading values should be divisible by the same number.</p>
+
+<p>In the end, we don’t need to align all our text to the baseline grid. If we align only the first lines, then use leading values that are factors of a common number, everything will look like it’s aligned. I call this <em>persuasive baseline alignment</em>, rather than <em>forced baseline alignment</em>.</p>
+
+<p>When we’re working with different size text in neighbouring columns, We can also choose to align only the first line to the baseline grid. In that case, we should try to make the leading factors of a single number.</p>
+
+<div class="text-right" style="margin-top: 3rem;">&#8613; <a href="#top">Top</a></div>
+:ET
