@@ -7,14 +7,3 @@ Your job is to pair the given typeface with one that compliments it. If you were
 | Last Name          | First Name | Type Pairing      | Date              |
 |--------------------|------------|-------------------|-------------------|
 | Ciper              | Enissa     | Adobe Jenson      | April 5, 2023     |
-| Gomond             | Bryan      | Clarendon URW     | February 22, 2023 |
-| Goodick            | Hannah     | News Gothic       | February 15, 2023 |
-| Goudreau-Patterson | Chandler   | Baskerville       | January 18, 2023  |
-| Jay                | Angela     | Minion            | February 1, 2023  |
-| Lam                | Stephanie  | Chaparral         | March 15, 2023    |
-| Mohdamed           | Ibrahim    | Century Old Style | Feburary 15, 2023 |
-| Shaan              | Shaan      | Abril             | January 25, 2023  |
-| Smith              | Brianna    | Avant Garde       | March 8, 2023     |
-| Stojanovic         | Andrej     | Acumin            | April 5, 2023     |
-| Valenzuela         | Zara       | Franklin Gothic   | February 8, 2023  |
-| Zhang              | Suzie      | Warnock           | March 15, 2023    |
