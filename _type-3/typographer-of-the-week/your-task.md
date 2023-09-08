@@ -49,7 +49,7 @@ Create a single-page letter-sized bio in InDesign. The layout should be inspired
 | Prevost              | Kaiden         |  Jonathan      | Hoefler       | Dec 1, 2023  |
 | Russell              | Peyton         |  Rudolf        | Koch          | Oct 13, 2023 |
 | Savard Gudjonsdottir | Briet          |  Hermann       | Zapf          | Nov 24, 2023 |
-| Schiavo              | Adamina        |  Zuzana        | Licko         | Oct 6, 2023  |
+| Schiavo              | Mina           |  Zuzana        | Licko         | Oct 6, 2023  |
 | Seye                 | Jemima         |  Chester       | Jenkins       | Nov 10, 2023 |
 | Stavinski Da Silva   | Rebeca         |  Jessica       | Hische        | Sep 29, 2023 |
 | Yahfoufi             | Daniel         |  Neville       | Brody         | Nov 17, 2023 |
