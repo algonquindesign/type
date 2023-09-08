@@ -33,7 +33,7 @@ Build a letter-sized layout with a type treatment which includes the two familie
 | Prevost              | Kaiden         | [News Gothic](https://fonts.adobe.com/fonts/news-gothic)             | September 15, 2023 |
 | Russell              | Peyton         | [Brioso](https://fonts.adobe.com/fonts/brioso)                       | September 15, 2023 |
 | Savard Gudjonsdottir | Briet          | [Franklin Gothic](https://fonts.adobe.com/fonts/franklin-gothic-urw) | September 29, 2023 |
-| Schiavo              | Adamina        | [Bell Centennial](https://fonts.adobe.com/fonts/bell-centennial-std) | November 10, 2023    |
+| Schiavo              | Mina           | [Bell Centennial](https://fonts.adobe.com/fonts/bell-centennial-std) | November 10, 2023    |
 | Seye                 | Jemima         | [Trade Gothic Next](https://fonts.adobe.com/fonts/trade-gothic-next) | September 22, 2023 |
 | Stavinski Da Silva   | Rebeca         | [Abril](https://fonts.adobe.com/fonts/abril)                         | September 22, 2023 |
 | Yahfoufi             | Daniel         | [Adobe Jenson](https://fonts.adobe.com/fonts/adobe-jenson)           | September 29, 2023 |
