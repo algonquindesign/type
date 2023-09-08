@@ -4,14 +4,12 @@ serial: level-3-assignment-6-subpage-your-task
 ---
 Each of you will be given the name of a modern-day typographer. You'll research them to create a profile including:
 
-<ul class="hasBullets">
-General biographical information
-A head-shot if possible
-A synopsis of their career
-Notable typefaces they've designed, with prominent samples on your page so we can see their designs and their style.
-What was their approach, goal, their philosophy in their type design?
-Their web site and social media handles, if possible
-</ul>
+- General biographical information
+- A head-shot if possible
+- A synopsis of their career
+- Notable typefaces they've designed, with prominent samples on your page so we can see their designs and their style.
+- What was their approach, goal, their philosophy in their type design?
+- Their web site and social media handles, if possible
 
 You'll present these at the start of each class. We'll likely do two or three per week. They'll only be a few minutes each.
 
