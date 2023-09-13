@@ -34,7 +34,7 @@ You can navigate all the semester's assignments to explore what you'll be learni
 
 #### Remember Type 1 and 2 Rules?
 
-In your first and second semesters of Typography, you learned the fundamentals. These rules need to be adhered to for this semester. If you need to be reminded, [Butterick's Practical Typography](https://practicaltypography.com){:target="_blank"} web site is a good reference. This is a [treasure-trove of typographic facts](https://fonts.google.com/knowledge){:target="_blank"} by Google.
+In your first and second semesters of Typography, you learned the fundamentals. These rules need to be adhered to for this semester. If you need to be reminded, [Butterick's Practical Typography](https://practicaltypography.com){:target="_blank"} web site is a good reference. This is a [treasure-trove of typographic facts](https://fonts.google.com/knowledge){:target="_blank"} by Google. Also, Monotype has an excellent [repository of type terminology](https://www.monotype.com/resources/z-typographic-terms){:target="_blank"}.
 
 #### Classes
 
