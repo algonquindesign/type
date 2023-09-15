@@ -17,7 +17,7 @@ Create a single-page PDF mood board. If we were cooking, this would be all the i
 </ul>
 
 <span class="brightspace">
-<a href="{{ site.data.type3[0].brightspace[2].bs_url }}" title="Submit your PDF on BrightSpace" target="_blank">![Submit on brightspace]({{site.url}}/svg/button-submit-brightspace.svg){:width="50%"}</a></span>
+<a href="{{ site.data.type3[0].brightspace[2].bs_url }}" title="Submit your PDF on BrightSpace" target="_blank">![Submit on brightspace]({{site.url}}/svg/button-submit-moodboard.svg){:width="50%"}</a></span>
 
 #### Thumbnails
 
@@ -34,3 +34,10 @@ This is what you'll base your final poster on. Once you have this done, the crea
 ### Type Size
 
 Be sure to print a section of your poster at 100%. Check the size of the smallest text to ensure it's large enough to read from 2 metres away.
+
+### Work in Progress
+
+As you work on your poster, you can submit your work in progress (WIP) here for feedback. I usually provide it within 24 hours. Please make sure you that you have notifications turned on for BrightSpace so you know when I've posted.
+
+<span class="brightspace">
+<a href="{{ site.data.type3[0].brightspace[3].bs_url }}" title="Submit your PDF on BrightSpace" target="_blank">![Submit on brightspace]({{site.url}}/svg/button-submit-WIP.svg){:width="40%"}</a></span>
