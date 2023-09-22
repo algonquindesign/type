@@ -14,7 +14,7 @@ It's classified as a sans-serif, handwritten typeface initially intended for use
 
 ### 1. Letterform Design
 
-*Comic Sans* has very inconsistent letterforms. As a matter of opinion, it's not hard to see why it's considered ugly. Usually, in type design, many letters are based on each other. See the glyphs for the letters bdpq in the [*Gibson* typeface](https://fonts.adobe.com/fonts/gibson).
+*Comic Sans* has very inconsistent letterforms. As a matter of opinion, it's not hard to see why it's considered ugly. Usually, in type design, many letters are based on each other. See the glyphs for the letters bdpq in the [*Gibson* typeface](https://fonts.adobe.com/fonts/gibson), a neo-grotesque sans-serif.
 
 ![bdpq glyphs]({{site.url}}/svg/kb/comic-sans-bdpq.svg){:width="50%"}
 
@@ -24,11 +24,11 @@ The glyphs are all based on the same forms, though they don't all end up being e
 
 As you can see, the same cannot be said for *Comic Sans*. As part of its hand-written design, each glyph is completely different from the other. While this gives it a *messy* look, it is said that this actually increases engagement in young readers.
 
-If you refer to the *Boom!* speech bubble above, you can see how letter spacing in *Comic Sans* is very loose. This also makes it easy to read for beginner readers.
+If you refer to the *Boom!* speech bubble below, you can see how letter spacing in *Comic Sans* is very loose. This also makes it easy to read for beginner readers.
 
 ### 2. Misuse
 
-Using any typeface in the wrong context can make it look inappropriate, unprofessional or even silly. *Comic Sans* was designed to be used in a casual context like a comic book speech bubble. Its letter forms are intended to be casual. They also happen to be very inconsistently designed. More on that soon.
+Using any typeface in the wrong context can make it look inappropriate, unprofessional or even silly. *Comic Sans* was designed to be used in a casual context like a comic book speech bubble. Its letter forms are intended to be casual. They also happen to be very inconsistently designed.
 
 For this reason, setting it in a serious context will make it look very wrong.
 
