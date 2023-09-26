@@ -6,9 +6,13 @@ Before you submit, be sure to go through the assignment pages to ensure you've f
 
 #### Printed Submission
 
+None.
+
+<!-- 
 Print your final poster on a 13" &#x00D7; 19" page, in colour. Include bleeds and the file info on your output. No envelope is needed. I'll have one in class.
 
 ![12x18 plus bleed]({{site.url}}/svg/submissions-print/12x18-plus-bleed.svg){:width="60%"}
+ -->
 
 #### Digital Submission
 
