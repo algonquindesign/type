@@ -159,6 +159,8 @@
     - bs_link_title: "Grimm's Pages"
       bs_url: "https://brightspace.algonquincollege.com/d2l/lms/dropbox/user/folder_submit_files.d2l?db=539334&grpid=0&isprv=0&bp=0&ou=565773"
   videos:
+    - video_url: "https://youtu.be/YSsM7k9G2QA"
+      video_title: "This is the whole process of building your document."
     - video_url: "https://youtu.be/4P-xnLSqgkY"
       video_title: "Remove all double paragraph breaks and double spaces from your text."
     - video_url: "https://youtu.be/z3ZRuyycsZo"
