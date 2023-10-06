@@ -44,6 +44,11 @@ The phrase *colour of the page* doesn't literally refer to colour itself. It ref
 
 The goal is to create a harmonious page, free of distracting graphic elements.
 
+|   Page Size   |            |
+|:-------------:|:----------:|
+|   Width       |   11.6cm   |
+|   Height      |   19.2cm   |
+
 #### Composition
 
 With no document open, open the settings for your <span class="commmand">Basic Paragraph</span> style. Go to <span class="command">Justification</span> to enter this.
