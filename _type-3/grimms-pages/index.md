@@ -31,13 +31,15 @@ Typefaces for Fiction Novels:
 ---
 This is all about finesse. The basics of this assignment are simple to execute. Achieving true harmony on the page is more challenging. The goal is to design an elegant, readable page with welcoming type, minimal hyphenation and subtle letter & word spacing.
 
+[![Download Assignment Assets](/svg/button-download.svg "button-download.svg")](https://www.dropbox.com/s/tpv4s21n7oggfvu/grimms-text.zip?dl=1){:target="_blank"}
+
 ### Project Stages
 
 <ol>
 	<li>Read through the web site pages for this assignment.</li>
 	<li>Research examples of fiction novel page treatments.</li>
 	<li>Research what makes a good typeface for a long document like a fiction novel.</li>
-	<li>Get the text of <a href="http://www-2.cs.cmu.edu/~spok/grimmtmp/" title="Get the text for your fairy tale." target="_blank">your fairy tale</a>.</li>
+	<li>Choose one of Grimm's fairy tales.</li>
 	<li>Make your typeface selection</li>
 	<li>Stylistic elements development</li>
 	<li>Set up InDesign with proper text composition & hyphenation settings.</li>
