@@ -4,7 +4,7 @@ serial: level-3-assignment-3-subpage-putting-it-all-together
 ---
 ### Prepare Your Text
 
-Copy and paste <a href="http://www-2.cs.cmu.edu/~spok/grimmtmp/" title="Get the text for your fairy tale." target="_blank">the text from the web page</a> to a text editor or into InDesign. You'll want to use the Find/Change command in your text editor to remove:
+Import your text to an InDesign document. You may need to use InDesign's Find/Change function to remove:
 
 <ul class="hasBullets">
 	<li>double spaces</li>
