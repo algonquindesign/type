@@ -19,7 +19,7 @@ The design (layout, type, and colours) needs to reflect the tone and voice of th
 
 The clientele for this company varies broadly. They sell to adult home-owners.
 
-#### Stages of the Project
+### Stages of the Project
 
 <ul class="hasBullets">
 	<li>Content inventory</li>
