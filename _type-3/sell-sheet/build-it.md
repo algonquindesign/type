@@ -14,7 +14,7 @@ Now that you have your whole design complete as sketches, colour palette and typ
 | Columns         | X          |
 | Gutter          | 1x Leading |
 | Margins         | 3x Leading |
-| Bleeds          | 0p9"     |
+| Bleeds          | 0p9        |
 |------------------------------|
 
 ### Units of Measure
