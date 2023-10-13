@@ -28,10 +28,10 @@ The clientele for this company varies broadly. They sell to adult home-owners.
 	<li>Layout thumbnails</li>
 	<li>Type selection</li>
 	<li>Colour selection</li>
-	<li>Build the mood board</li>
+	<li>Build the <a href="plan-your-design.html" title="Plan your design">mood board</a></li>
 	<li>Create the InDesign document</li>
 	<li class="second">Create paragraph styles</li>
-	<li class="second">Create colour swatches</li>
-	<li class="second">Convert photos to CMYK</li>
+	<li class="second">Create colour swatches, delete unused</li>
+	<li class="second">Convert photos to CMYK @ 100%</li>
 	<li class="second">Build the layout</li>
 </ul>
