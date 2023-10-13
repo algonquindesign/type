@@ -21,16 +21,17 @@ The clientele for this company varies broadly. They sell to adult home-owners.
 
 #### Stages of the Project
 
-- Content inventory
-	- Read the text
-	- Check photos
-- Layout thumbnails
-- Type selection
-- Colour selection
-- Build the mood board
-- Create the InDesign document
-- Build the document
-	- Create paragraph styles
-	- Create colour swatches
-	- Convert photos to CMYK
-	- Do the layout
+<ul class="hasBullets">
+	<li>Content inventory</li>
+	<li class="second">Read the text</li>
+	<li class="second">Check photos</li>
+	<li>Layout thumbnails</li>
+	<li>Type selection</li>
+	<li>Colour selection</li>
+	<li>Build the mood board</li>
+	<li>Create the InDesign document</li>
+	<li class="second">Create paragraph styles</li>
+	<li class="second">Create colour swatches</li>
+	<li class="second">Convert photos to CMYK</li>
+	<li class="second">Build the layout</li>
+</ul>
