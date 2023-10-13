@@ -18,3 +18,19 @@ The design (layout, type, and colours) needs to reflect the tone and voice of th
 </ul>
 
 The clientele for this company varies broadly. They sell to adult home-owners.
+
+#### Stages of the Project
+
+- Content inventory
+	- Read the text
+	- Check photos
+- Layout thumbnails
+- Type selection
+- Colour selection
+- Build the mood board
+- Create the InDesign document
+- Build the document
+	- Create paragraph styles
+	- Create colour swatches
+	- Convert photos to CMYK
+	- Do the layout
