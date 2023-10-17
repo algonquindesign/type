@@ -70,7 +70,7 @@ These numbers are a starting point. They're not written in stone. They're better
   </figcaption>
   </figure>
 
-You'll know you're settings are incorrect if there is yellow highlighting on your InDesign pages. You can see bad and good justified text in the PDF file linked below.
+You'll know you're settings are incorrect if there is yellow highlighting on your InDesign pages. You can see bad and good justified text in the PDF file linked below. To see this highlighting, go to <span class="command">InDesign > Preference > Composition</span>, turn on <span class="command">H&J Violations</span>.
 
 <a href="https://www.dropbox.com/s/tceqy4n160vpwsn/good-vs-bad-justification.pdf?dl=1" title="Good Vs Bad Justification" target="_blank">![Download a PDF]({{site.url}}/svg/button-download-pdf.svg){:width="40%"}</a>
 
