@@ -57,5 +57,3 @@ Show how you're going to use photography on the page. Will you crop the photos, 
 Page layout sketches will help you get this project completed as quickly as possible. Put **pencil to paper** to create as many thumbnails as possible.
 
 [![Go to Pinterest]({{site.url}}/svg/button-pinterest.svg){:width="40%"}](https://pin.it/52a2wfv){:target="_blank"}
-
-Once you have lots and lots, you can create a higher fidelity sketch of your layout. This one should be accurate enough that any designer could use it to build the design as you intended.
