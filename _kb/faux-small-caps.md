@@ -13,10 +13,6 @@ When a font doesn't contain a small cap, some page layout software scales down t
 
 Note that small caps are sometimes slightly larger than the x-height of the lower case glyphs. There are also **petite caps**, which are exactly the same x-height as the lower case glyphs.
 
-![Scaled Capitals]({{site.url}}/svg/kb/scaled-capitals.svg){:width="90%"}
-
-Either way, it is generally frowned upon to scale a letter within a word. The weights of each character are affected. It just looks bad.
-
 ### How do I know?
 
 You should be able to see the difference between real small caps and faked ones. If you're concerned you can't, simply consult the Glyphs panel to see if they're there.
@@ -36,3 +32,7 @@ One would think that using <span class="command">font-variant: small-caps</span>
 <div style="font-family: FiraSans-Regular; font-size: 2.5rem; font-variant: small-caps;">This is in real small caps.</div>
 
 You need to make sure your typeface includes small caps the same way you do in InDesign.
+
+![Scaled Capitals]({{site.url}}/svg/kb/scaled-capitals.svg){:width="90%"}
+
+Either way, it is generally frowned upon to scale a letter within a word. The weights of each character are affected. It just looks bad.
